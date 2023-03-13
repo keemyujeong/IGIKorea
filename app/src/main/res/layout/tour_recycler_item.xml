@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card_view"
+    android:layout_marginBottom="18dp"
+    android:layout_marginRight="18dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="9sp"
+    >
+
+    <RelativeLayout
+        android:layout_width="324dp"
+        android:layout_height="126dp">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="80dp"
+            android:layout_height="106dp"
+            android:src="@drawable/main_vp_1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예정"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_tv_schedule"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/iv"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="7dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_ongoing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="진행"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_tv_ongoing"
+            android:layout_toRightOf="@+id/iv"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="7dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종료"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_tv_end"
+            android:layout_toRightOf="@+id/iv"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="7dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="신청예정"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_tv_apply"
+            android:layout_toRightOf="@+id/tv_schedule"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="7dp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_tour_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="구간 4차 - 철원"
+            android:textSize="14sp"
+            android:textColor="@color/dark"
+            android:layout_alignStart="@+id/tv_schedule"
+            android:layout_below="@+id/tv_schedule"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tour_name"
+            android:layout_alignStart="@+id/tv_schedule"
+            android:text="행사 시간 : "
+            android:textColor="@color/greyish_brown"
+            android:textSize="12sp" />
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

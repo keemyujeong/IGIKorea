@@ -1,0 +1,27 @@
+[
+ {
+  "imgUrl" : "images/drawable-xhdpi/main_vp_1.png", // 이거 경로를 해상도 1개 밖에 설정을 못하나?
+  "tourName": "동서 횡단 1차 - 고성 ~ 철원",
+  "time": "2023.02.24 ~ 02.28"
+ },
+ {
+  "imgUrl" : "images/drawable-xhdpi/main_vp_2.png",
+  "tourName": "동서 횡단 1차 - 고성 ~ 파주",
+  "time": "2023.03.11 ~ 03.18"
+ },
+ {
+  "imgUrl" : "images/drawable-xhdpi/main_vp_3.png",
+  "tourName": "동서 횡단 3차 - 고성 ~ 연천",
+  "time": "2023.06.22 ~ 07.01"
+ },
+ {
+  "imgUrl" : "images/drawable-xhdpi/main_vp_5.png",
+  "tourName": "구간 1차 - 강화 ~ 김포",
+  "time": "2023.04.01 ~ 04.10"
+ },
+ {
+  "imgUrl" : "images/drawable-xhdpi/main_vp_8.png",
+  "tourName": "구간 1차 - 강원도 철원",
+  "time": "2023.05.23 ~ 05.28"
+ }
+]
